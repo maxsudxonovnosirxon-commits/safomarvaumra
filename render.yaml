@@ -1,6 +1,31 @@
 services:
   - type: web
-    name: safo-marva-tour
+    name: safomarvaumra
     runtime: docker
     plan: free
     healthCheckPath: /health
+    envVars:
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: BOT_TOKEN
+        sync: false
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false
+      - key: LEAD_BOT_TOKEN
+        sync: false
+      - key: TELEGRAM_ADMINS
+        sync: false
+      - key: ADMIN_API_KEY
+        sync: false
+      - key: PGHOST
+        sync: false
+      - key: PGUSER
+        sync: false
+      - key: PGPASSWORD
+        sync: false
+      - key: PGDATABASE
+        sync: false
+      - key: PGPORT
+        sync: false
