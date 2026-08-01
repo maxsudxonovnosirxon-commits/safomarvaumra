@@ -997,7 +997,6 @@ public class LeadTelegramBot extends TelegramLongPollingBot {
             case "jumeirah_lux": return "Jumeirah Premium LUX 10 Kunlik";
             case "anjum_lux": return "ANJUM LUX Hoji Aka 10 Kunlik";
             case "standard_13": return "Standard 13 Kunlik";
-            case "al_jabri_14": return "Al Jabri Standart 14 Kunlik";
             case "comfort_plus_10": return "Comfort Plus 10 Kunlik";
             default: return key;
         }

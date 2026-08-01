@@ -17,9 +17,9 @@ public class SafoMarvaTourApplication {
     }
 
     private static final Set<String> ACTIVE_PACKAGE_KEYS = Set.of(
-            "special_14day", "comfort_plus_10", "standard_13", "al_jabri_14",
+            "special_14day", "comfort_plus_10", "standard_13",
             "anjum_lux", "jumeirah_lux");
-    private static final Set<String> RETIRED_PACKAGE_KEYS = Set.of("lux", "lux_premium", "lux_jumeirah");
+    private static final Set<String> RETIRED_PACKAGE_KEYS = Set.of("lux", "lux_premium", "lux_jumeirah", "al_jabri_14");
 
     @Bean
     public CommandLineRunner syncPackages(PackageRepository packageRepository) {
@@ -37,9 +37,6 @@ public class SafoMarvaTourApplication {
                     "Avgust, Sentyabr, Oktyabr, Noyabr va Dekabr oylari uchun SAFO MARVA TOUR ning \"ANJUM\" 10 kunlik LUX paketi\n\nSAFO MARVA TOUR bilan — litsenziyalangan, xavfsiz, xotirjam\n\nKETISH: Toshkent - Madina\nQAYTISH: Jidda - Toshkent\n\n1 Juma Madinada + 1 Juma Makkada\n\nMadinada: Waqf as Safi 5★, 4 kecha\nMakkada: Anjum Makkah 5★, 5 kecha\n\nKETISH SANALARI:\n13.08.2026 (11:00 - 16:20) · 27.08 · 10.09 · 24.09\n08.10.2026 (11:00 - 16:20) · 22.10 · 05.11 · 19.11 · 03.12\n\nXONA NARXLARI (13.08 - 24.09):\n4 kishilik - 1650$\n3 kishilik - 1750$\n2 kishilik - 1950$\n\nXONA NARXLARI (08.10 - 03.12):\n4 kishilik - 1750$\n3 kishilik - 1850$\n2 kishilik - 2050$\n\nPaketga kiradi:\nTezyurar poyezd xizmati\n2 mahal taom - Madinada\n2 mahal taom - Makkada\nMakka va Madina bo'ylab ekskursiyalar\nRavzaga kirish imkoniyati\nIlmli guruh rahbarlari xizmatlari\nMalakali shifokor xizmatlari\nQizil dengiz sayohati\n\nHadyalar:\nZam-Zam 5 litr\nNimcha\nSumka\nBeyjik\nAbaya (ayollar uchun)\n\nMurojaat uchun:\n+998 94 625 77 72\n@MuhammadYusuf_ilm\n@SafoMarva_Umra_VIP");
             upsertPackage(packageRepository, "standard_13", "Standard (13 kunlik)", "990",
                     "Avgust va Sentyabr oylari uchun SAFO MARVA TOUR ning 13 kunlik \"Standard\" paketi\n\nSAFO MARVA TOUR bilan — litsenziyalangan, xavfsiz, xotirjam\n\nKETISH SANALARI (har shanba):\n01.08.2026 (05:20 - 10:40) · 08.08 · 15.08 · 22.08 · 29.08.2026\n\nKETISH: Toshkent - Jidda\nQAYTISH: Madina - Toshkent\n\nMakkada: Toreeq al Hijra hotel, 9 kecha\nMadinada: Mehrob Toiba, 3 kecha\n\nXona narxlari (Viza bor bo'lsa):\n4 kishilik - 990$\n3 kishilik - 1090$\n2 kishilik - 1190$\n\nXona narxlari (Viza bilan):\n4 kishilik - 1090$\n3 kishilik - 1190$\n2 kishilik - 1290$\n\nPaketga kiradi:\nAviachipta\nMehmonxona\nTransfer\nTezyurar poyezd\n2 mahal taom - Madinada\n3 mahal taom - Makkada\nMakka va Madina bo'ylab ekskursiyalar\nRavzaga kirish imkoniyati\nIlmli guruh rahbarlari xizmatlari\nMalakali shifokor xizmatlari\n\nHadyalar:\nZam-Zam 5 litr\nNimcha\nSumka\nBeyjik\nAbaya (ayollar uchun)\n\nMurojaat uchun:\n+998 55 517 73 73\n@Safomarva_admin");
-            upsertPackage(packageRepository, "al_jabri_14", "Al Jabri Standart (14 kunlik)", "1250",
-                    "Июл ва Август ойилари учун SAFO MARVA TOUR нинг \"Al Jabri Standart\" 14 кунлик пакети\n\nSAFO MARVA TOUR билан — лицензияланган, хавфсиз, хотиржам\n\n✈️✈️✈️✈️✈️✈️\n\n📆18.07.2026 - 01.08.2026\n\n✈️ Тошкент – Мадина - Тошкент\n\n1 - Жума Мадинада\n1- Жума Маккада\n\n🏨 Мадинада: Mehrob Toiba 4️⃣⭐️\n🏨 Маккада: Al Jabri 4️⃣⭐️\n\n🏨 Мадинада: 7 - кеча \n🏨 Маккада: 7 - кеча\n\n‼️ Хона жойлашувлари бўйича:\n🛏 4 кишилик - 1250$\n🛏 3 кишилик - 1350$\n🛏 2 кишилик - 1450$\n\n\n🎁 Пакетимиз ичига кирувчи хизматлар:\n🍽 2 маҳал таом — Мадинада \n🍽 3 маҳал таом — Маккада \n🕌 Макка ва Мадинада экскурсиялар\n🕌 Равзага кириш имконияти\n📖 Илмли гуруҳ раҳбарлари хизматлари\n⚕️ Малакали шифокор хизматлари\n🐳 Қизил денгиз саёхати\n\n🎁 Ҳадиялар:\n🧊 Зам-Зам 5 л \n🧥 Нимча\n🎒 Сумка\n🪪 Бейжик\n👗 Абая (аёллар учун)\n\n👨‍💻 Мурожаат учун: \n📞 555177373");
-
             packageRepository.findAll().stream()
                     .filter(pkg -> RETIRED_PACKAGE_KEYS.contains(pkg.getKeyName()))
                     .forEach(pkg -> {
