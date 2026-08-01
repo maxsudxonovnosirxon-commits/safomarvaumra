@@ -1,33 +1,41 @@
 {
-  "standard": {
-    "image_url": "galereya/standart.jpg",
-    "images": ["galereya/standart.jpg"],
-    "video_url": "",
-    "videos": []
-  },
-  "comfort": {
-    "image_url": "galereya/komfort.jpg",
-    "images": ["galereya/komfort.jpg"],
-    "video_url": "",
-    "videos": []
-  },
-  "special_14day": {
-    "image_url": "galereya/kom_plus.jpg",
-    "images": ["galereya/kom_plus.jpg"],
-    "video_url": "",
-    "videos": []
-  },
+    "comfort_plus_10": {
+        "image_url": "galereya/komfort.jpg",
+        "images": [
+            "galereya/komfort.jpg"
+        ],
+        "video_url": "",
+        "videos": []
+    },
+    "standard_13": {
+        "image_url": "galereya/standard_13.png",
+        "images": [
+            "galereya/standard_13.png"
+        ],
+        "video_url": "",
+        "videos": []
+    },
+    "special_14day": {
+        "image_url": "galereya/kom_plus.jpg",
+        "images": [
+            "galereya/kom_plus.jpg"
+        ],
+        "video_url": "",
+        "videos": []
+    },
 
-  "jumeirah_lux": {
-    "image_url": "galereya/jumeirah.jpg",
-    "images": ["galereya/jumeirah.jpg"],
-    "video_url": "galereya/jumeirah.mp4",
-    "videos": ["galereya/jumeirah.mp4"]
-  },
-  "anjum_lux": {
-    "image_url": "galereya/anjum_lux.jpg",
-    "images": ["galereya/anjum_lux.jpg"],
-    "video_url": "",
-    "videos": []
-  }
+    "jumeirah_lux": {
+        "image_url": "galereya/jumeirah.jpg",
+        "images": ["galereya/jumeirah.jpg"],
+        "video_url": "galereya/jumeirah.mp4",
+        "videos": ["galereya/jumeirah.mp4"]
+    },
+    "anjum_lux": {
+        "image_url": "galereya/anjum_lux.jpg",
+        "images": [
+            "galereya/anjum_lux.jpg"
+        ],
+        "video_url": "",
+        "videos": []
+    }
 }
