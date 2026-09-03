@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
 import java.time.LocalDateTime;
+import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
 import java.util.List;
@@ -102,7 +103,7 @@ public class LeadController {
         // 2. Dispatch Telegram Notification to Administrators
         try {
             String[] adminIds = adminsStr.split(",");
-            String now = LocalDateTime.now().format(DateTimeFormatter.ofPattern("dd.MM.yyyy HH:mm:ss"));
+            String now = LocalDateTime.now(ZoneId.of("Asia/Tashkent")).format(DateTimeFormatter.ofPattern("dd.MM.yyyy HH:mm:ss"));
             String roomInfo = ("special_14day".equalsIgnoreCase(cleanPackageKey)
                     || "anjum_lux".equalsIgnoreCase(cleanPackageKey)
                     || "jumeirah_lux".equalsIgnoreCase(cleanPackageKey))
